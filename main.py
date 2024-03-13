@@ -17,6 +17,7 @@ def main():
     root.title("Quick Flashcards")
     root.geometry('700x500')
     root.resizable(False, False)
+    root.iconphoto(False, tk.PhotoImage(file="img/icon.png"))
 
     #DataBase
 
